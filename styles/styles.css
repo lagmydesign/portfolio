@@ -4,6 +4,7 @@ body {
     background-image:url('../img/background.jpg');
     background-size: 230%;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 @font-face {
