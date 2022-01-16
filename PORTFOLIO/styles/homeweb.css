@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-image:url('../img/background.jpg');
+    background-size: cover;
+    background-position: 30%;
+    background-repeat: no-repeat;
+}
+
+.menulinks {
+    display: grid;
+
+    padding: 10% 0;
+}

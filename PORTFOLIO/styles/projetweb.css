@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    height: 90vh;
+}
+
+.menulinks {
+    display: grid;
+
+    padding: 10% 0;
+}
+
+.img {
+    margin: auto;
+    margin-top: 25px;
+    height: 200vh;
+    width: 85%;
+}
+
+.img img{
+    width: 325px;
+    height: 325px;
+    width: auto;
+}
+
+.proj1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transition: 0.5s;
+}
+
+.click1 {
+    display: block;
+    position: absolute;
+    top: 290px;
+    left: 325px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 24pt;
+}
+
+.proj1:hover {
+    opacity: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.proj2 {
+    position: absolute;
+    width: 500px;
+    top: 250px;
+    right: 80px;
+    transition: 0.5s;
+}
+
+.proj2:hover {
+    opacity: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.click2 {
+    display: block;
+    position: absolute;
+    top: 450px;
+    right: 180px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 24pt;
+}
+
+.proj3{
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    transition: 0.5s;
+}
+
+.proj3:hover {
+    opacity: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.click3 {
+    display: block;
+    position: absolute;
+    top: 845px;
+    left: 450px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 24pt;
+}
+
+.proj4 {
+    position: absolute;
+    width: 500px;
+    top: 1050px;
+    right: 80px;
+    transition: 0.5s;
+}
+
+.proj4:hover {
+    opacity: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.click4 {
+    display: block;
+    position: absolute;
+    top: 1250px;
+    right: 180px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 24pt;
+}
+
+.proj5{
+    position: absolute;
+    top: 1350px;
+    left: 100px;
+    transition: 0.5s;
+}
+
+.proj5:hover {
+    opacity: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.click5 {
+    display: block;
+    position: absolute;
+    top: 1550px;
+    left: 320px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 24pt;
+}
+
+footer {
+    margin-top: 0px;
+    padding: 50px;
+    
+}
+.bigtext {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.thankyou {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+

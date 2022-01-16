@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    height: 90vh;
+}
+
+.img {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.img img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    padding: 50px;
+}
