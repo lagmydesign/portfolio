@@ -1,0 +1,29 @@
+.img {
+    height: 160vh;
+}
+
+.img img {
+    width: 500px;
+    height: 500px;
+    width: auto;
+}
+
+.proj3 {
+    top: 820px;
+    left: 250px;
+}
+
+.proj1:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.proj3:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.click2  {
+    top: 530px;
+    right: 260px;
+}
