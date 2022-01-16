@@ -5,12 +5,12 @@ body {
 
 @font-face {
     font-family: 'SourceCodeProLig';
-    src: url('/fonts/SourceCodePro-Light.ttf');
+    src: url('../fonts/SourceCodePro-Light.ttf');
 }
 
 @font-face {
     font-family: 'SourceCodeProReg';
-    src: url('/fonts/SourceCodePro-Regular.ttf');
+    src: url('../fonts/SourceCodePro-Regular.ttf');
 }
 
 
