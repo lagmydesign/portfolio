@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    height: 90vh;
+}
+
+@font-face {
+    font-family: 'SourceCodeProLig';
+    src: url('/fonts/SourceCodePro-Light.ttf');
+}
+
+@font-face {
+    font-family: 'SourceCodeProReg';
+    src: url('/fonts/SourceCodePro-Regular.ttf');
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 2em;
+    text-decoration: none;
+    quotes: none;
+}
+
+#menu_burger {
+    height: 35px;
+    width: 35px;
+    z-index: 11;
+}
+
+.burgercolor {
+    right: 10px;
+    position: fixed;
+    filter:invert(1);
+}
+
+.menu div {
+    margin: 20px;
+}
+    
+.all {
+    position: fixed;
+
+    background-color:#bcb3c4;
+    color: white;
+    font-family: 'SourceCodeProLig';
+    font-size: 18pt;
+    text-align: center;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+
+    z-index: -1;
+    opacity: 0;
+
+    transition: 0.6s;
+}
+
+.menulinks {
+    display: grid;
+
+    padding: 33% 0;
+}
+
+.all a {
+    padding: 33px 0;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.all>a:hover{
+    transform: scale(1.05, 1.05);
+	transition: 0.25s;
+    font-family: 'SourceCodeProReg';
+}
+
+nav{
+    position: fixed;
+    justify-content: space-evenly;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    z-index: -1;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.show {
+    z-index: 2;
+    opacity: 1;
+    transition: 0.6s;
+}
+.img {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.img img {
+    margin-top: 10px;
+    width: 325px;
+    height: 325px;
+    object-fit: cover;
+}
+
+.click1, .click2, .click3, .click4, .click5{
+    display: none;
+}
+
+footer {
+    height: 272.5px;
+    background-color: #bcb3c4;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.bigtext {
+    color: white;
+    font-family: 'SourceCodeProLig';
+    font-size: 18pt;
+    text-decoration: none;
+    quotes: none;
+    margin-bottom: 10px;
+}
+
+.thankyou {
+    
+    color: white;
+    font-family: 'SourceCodeProLig';
+}
+.center {
+    display: table;
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+  }
+  #social-test {
+    text-align: center;
+    font-size: 20px;
+    }
+    .social {
+      padding-left: 0px;
+    }
+    li {
+      display: inline-block;
+      width: 30px;
+      line-height: 30px;
+      padding: 1%;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      transition: ease .3s;
+      background-color: white;
+      border-radius: 50%;
+    }
+      li:hover {
+        color: rgb(0, 0, 0);
+      }
+    
+  
+  
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  }
