@@ -8,6 +8,20 @@
     width: auto;
 }
 
+.desc1 {
+    top: 665px;
+}
+
+.desc2 {
+    top: 815px;
+    right: 330px;
+}
+
+.desc3 {
+    top: 1385px;
+    left: 300px;
+}
+
 .proj3 {
     top: 820px;
     left: 250px;
@@ -24,6 +38,6 @@
 }
 
 .click2  {
-    top: 530px;
-    right: 260px;
+    top: 542px;
+    right: 358px;
 }

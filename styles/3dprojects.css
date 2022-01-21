@@ -115,6 +115,10 @@ nav{
     display: none;
 }
 
+.desc1, .desc2, .desc3, .desc4, .desc5{
+    display: none;
+}
+
 footer {
     height: 272.5px;
     background-color: #bcb3c4;

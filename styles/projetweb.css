@@ -32,8 +32,8 @@ body {
 .click1 {
     display: block;
     position: absolute;
-    top: 290px;
-    left: 325px;
+    top: 305px;
+    left: 420px;
     color: black;
     font-family: 'SourceCodeProLig';
     font-size: 24pt;
@@ -43,6 +43,15 @@ body {
     opacity: 50%;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.desc1 {
+    position: absolute;
+    top: 490px;
+    left: 150px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 18pt;
 }
 
 .proj2 {
@@ -62,12 +71,22 @@ body {
 .click2 {
     display: block;
     position: absolute;
-    top: 450px;
-    right: 180px;
+    top: 455px;
+    right: 270px;
     color: black;
     font-family: 'SourceCodeProLig';
     font-size: 24pt;
 }
+
+.desc2 {
+    position: absolute;
+    top: 640px;
+    right: 195px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 18pt;
+}
+
 
 .proj3{
     position: absolute;
@@ -86,11 +105,21 @@ body {
     display: block;
     position: absolute;
     top: 845px;
-    left: 450px;
+    left: 546px;
     color: black;
     font-family: 'SourceCodeProLig';
     font-size: 24pt;
 }
+
+.desc3 {
+    position: absolute;
+    top: 1040px;
+    left: 150px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 18pt;
+}
+
 
 .proj4 {
     position: absolute;
@@ -109,11 +138,20 @@ body {
 .click4 {
     display: block;
     position: absolute;
-    top: 1250px;
-    right: 180px;
+    top: 1255px;
+    right: 270px;
     color: black;
     font-family: 'SourceCodeProLig';
     font-size: 24pt;
+}
+
+.desc4 {
+    position: absolute;
+    top: 1440px;
+    right: 180px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 18pt;
 }
 
 .proj5{
@@ -137,6 +175,15 @@ body {
     color: black;
     font-family: 'SourceCodeProLig';
     font-size: 24pt;
+}
+
+.desc5 {
+    position: absolute;
+    top: 1740px;
+    left: 150px;
+    color: black;
+    font-family: 'SourceCodeProLig';
+    font-size: 18pt;
 }
 
 footer {

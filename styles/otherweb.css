@@ -2,16 +2,39 @@
     height: 150vh;
 }
 
+.desc1 {
+    top: 490px;
+}
+
+.desc2 {
+    right: 140px;
+}
+
+.desc3 {
+    left: 270px;
+}
+
+.desc4 {
+    top: 1240px;
+    right: 368px;
+}
+
 .proj1 {
     top: 100px;
     left: 100px;
 }
 
 .click2 {
-    right: 180px;
+    top: 460px;
+    right: 270px;
 }
 .proj3 {
     left: 220px;
+}
+
+.click3 {
+    top: 860px;
+    left: 540px;
 }
 
 .proj4 {
@@ -19,6 +42,6 @@
     right: 180px;
 }
 .click4 {
-    top: 1050px;
-    right: 260px;
+    top: 1055px;
+    right: 370px;
 }
