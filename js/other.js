@@ -25,3 +25,14 @@ function project4() {
     var nutryweb = 'https://nutry-alsace.github.io/website/';
     window.open(nutryweb,'_blank');
 }
+
+document.querySelectorAll('.img>img').forEach( img => {
+    img.addEventListener('mouseenter', function() {
+        this.nextElementSibling.style.display = 'block';
+    })
+
+    img.addEventListener('mouseleave', function() {
+        this.nextElementSibling.style.display = 'none';
+    })
+
+});

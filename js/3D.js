@@ -25,3 +25,14 @@ function project4() {
     var deadeye = 'https://www.behance.net/gallery/127038835/Stepped-Deadeye';
     window.open(deadeye,'_blank');
 }
+
+document.querySelectorAll('.img>img').forEach( img => {
+    img.addEventListener('mouseenter', function() {
+        this.nextElementSibling.style.display = 'block';
+    })
+
+    img.addEventListener('mouseleave', function() {
+        this.nextElementSibling.style.display = 'none';
+    })
+
+});
