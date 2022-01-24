@@ -3,6 +3,10 @@ body {
     height: 90vh;
 }
 
+main {
+    height: 1800px;
+}
+
 .menulinks {
     display: grid;
 
